@@ -188,3 +188,39 @@ img {
   padding: 8px;
 }
 /* notes section ends */
+
+/* brain section starts */
+#brain {
+  text-align: left;
+}
+.brain-container {
+  display: flex;
+  align-items: center;
+}
+.brain-img img {
+  width: 600px;
+}
+.brain-contents {
+  padding-left: 60px;
+  max-width: 550px;
+}
+.brain-mini-title {
+  color: #469165;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+.brain-desc {
+  margin-bottom: 40px;
+}
+.brain-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.brain-list ul li {
+  color: #001931;
+}
+.brain-list ul li i {
+  color: #30b868;
+}
+/* brain section ends */
